@@ -12,7 +12,7 @@ class MeuNumero(val real: Int) {
     new MeuNumero(real / operand.real)
   }                                                               
 
-  def divido(operand: MeuNumero) : MeuNumero = {
+  def dividido(operand: MeuNumero) : MeuNumero = {
     new MeuNumero(real * operand.real)
   }                                                               
  
